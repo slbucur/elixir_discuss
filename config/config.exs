@@ -32,6 +32,7 @@ config :ueberauth, Ueberauth,
     github: {Ueberauth.Strategy.Github, []}
   ]
 
+# Dummy configuration here, needs to be replaced in dev.secret.exs or prod.secret.exs
 config :ueberauth, Ueberauth.Strategy.Github,
   client_id: "<github_client_id>",
   client_secret: "<github_client_secret>"
